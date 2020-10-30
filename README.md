@@ -60,7 +60,7 @@ def f3(f1, f2):
 istate = {'seed': 42}
 
 
-res = resolve(
+res = lazydep.resolve(
 
 	# How are inputs and outputs reordered?
 	graph = depGraph,
@@ -75,6 +75,8 @@ res = resolve(
 	# If request == None, we will return the aggregate state, after running all functions
 	request = 'f3',
 )
+
+assert( res == (2,4) )
 
 
 ```

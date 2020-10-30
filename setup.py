@@ -18,7 +18,7 @@ URL = 'https://github.com/alienbrett/lazydep'
 EMAIL = 'alienbrett648@gmail.com'
 AUTHOR = 'Brett Graves'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.0'
+VERSION = '1.1'
 
 # What packages are required for this module to be executed?
 REQUIRED = [

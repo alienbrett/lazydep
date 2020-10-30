@@ -1,8 +1,4 @@
 
-__all__ = ='resolve'
-
-
-
 
 def pruneGraph (graph, root=None):
 	'''Returns a cut graph, with request as parent
@@ -93,3 +89,9 @@ def resolve(graph, state, functions, request=None):
 	else:
 		return state[request]
 	
+
+
+
+__all__ = ['resolve']
+
+
