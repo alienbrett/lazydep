@@ -1,6 +1,6 @@
 # lazydep
 
-Evaluates some set of functions, according to tome dependency graph structure
+Evaluates some set of functions, according to some dependency graph structure
 
 
 There's pretty much 1 function that is worth noting:
